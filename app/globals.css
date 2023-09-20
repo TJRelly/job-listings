@@ -15,6 +15,16 @@
   --very-dark-grayish-cyan: hsl(180, 14%, 20%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+IMAGE {
+  max-width: 100%;
+}
+
 body {
   margin: 0;
   font-size: 15px;
@@ -33,7 +43,11 @@ body {
 }
 
 .gray {
-  color: var(--dark-grayish-cyan)
+  color: var(--dark-grayish-cyan);
+}
+
+.listing-container {
+  padding: 0.5rem 2rem;
 }
 
 .attribution {
