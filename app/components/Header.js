@@ -1,6 +1,6 @@
 import Image from "next/image"
-import mobileBg from "images/bg-header-mobile.svg"
-import desktopBg from "images/bg-header-desktop.svg"
+import mobileBg from "/public/images/bg-header-mobile.svg"
+import desktopBg from "/public/images/bg-header-desktop.svg"
 
 const Header = () => {
   return (
