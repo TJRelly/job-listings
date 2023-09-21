@@ -1,7 +1,7 @@
 import JOBS from "../data.json"
 import Listings from "./components/Listings"
-import Header from "./components/header"
-import Attribution from "./components/attribution"
+import Header from "./components/Header"
+import Attribution from "./components/Attribution"
 
 export default function Home() {
   return (
